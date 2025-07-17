@@ -1,20 +1,20 @@
- <span style="color: #FF6347;">Selenium Automation Course - Comprehensive Guide</span>
+# <span style="color: #FF6347;">Selenium Automation Course - Comprehensive Guide</span>
 
 This comprehensive guide covers essential and advanced topics for mastering Selenium WebDriver and related frameworks. It also includes common interview questions and real-world project details.
 
 ---
 
- <span style="color: #4682B4;">5) WebDriver Interface</span>
+## <span style="color: #4682B4;">5) WebDriver Interface</span>
 
 This topic will make you familiar with the concept of browsers in WebDriver and how to launch a basic Firefox browser using WebDriver. Here we will also talk about WebDriver & WebElement interfaces, which will enable us to answer many complicated interview questions about WebDriver implementation.
 
- <span style="color: #32CD32;">Topics Covered:</span>
+### <span style="color: #32CD32;">Topics Covered:</span>
 - <span style="color: #DAA520;">Architecture of WebDriver</span>
 - <span style="color: #DAA520;">WebDriver Interface</span>
 - <span style="color: #DAA520;">WebElement Interface</span>
 - <span style="color: #DAA520;">Launching Firefox/Chrome/Safari</span>
 
- <span style="color: #8A2BE2;">Interview Questions:</span>
+### <span style="color: #8A2BE2;">Interview Questions:</span>
 - What is the WebDriver interface?
 - Difference between WebDriver and WebElement?
 
@@ -163,7 +163,7 @@ Advanced topics for handling complex UI elements and dynamic content.
 - Handle <span style="color: #FF6347;">Ajax components</span>
 - Handle <span style="color: #FF6347;">Complex Calendars</span>
 - Handle <span style="color: #FF6347;">WebTable with Paginations</span>
-- Handle <span style="color: #FF6347;">infinite Page Loading</span> like LinkedIn, Facebook, etc.
+- Handle infinite <span style="color: #FF6347;">Page Loading</span> like LinkedIn, Facebook, etc.
 - Complex <span style="color: #FF6347;">ShadowDOM</span>, <span style="color: #FF6347;">SVG Elements</span>
 - <span style="color: #FF6347;">Frames/iFrames</span>
 - <span style="color: #FF6347;">Psuedo Elements</span>
@@ -171,61 +171,5 @@ Advanced topics for handling complex UI elements and dynamic content.
 
 ---
 
-## <span style="color: #4682B4;">Part -2: Advanced Selenium</span>
-
----
-
-## <span style="color: #4682B4;">14) TestNG Framework</span>
-
-TestNG is a powerful framework for creating tests. We will cover how to use TestNG to structure your Selenium tests.
-
-### Topics Covered:
-- What is TestNG?
-- Features and Benefits of TestNG
-- How to download and set up TestNG
-- Annotations in TestNG
-- How to run Test Suite in TestNG
-- Groups in TestNG
-- Test Case sequencing in TestNG
-- Multi Browser testing and Parallel testing in TestNG
-
----
-
-## <span style="color: #4682B4;">15) Automation Framework</span>
-
-This class will cover the concepts of Frameworks and help you choose the right framework for your application.
-
-### Topics Covered:
-- What is Automation Framework?
-- Different types of Frameworks (Data Driven, Hybrid, etc.)
-- Introduction to the Page Object Model (POM)
-
----
-
-## <span style="color: #4682B4;">16) Real-Time Live PROJECT – Selenium Hybrid Framework (POM)</span>
-
-We will explore major frameworks and understand their components by building a live project. This includes creating a Selenium Hybrid Framework using the Page Object Model (POM).
-
-### Topics Covered:
-- Framework Components
-- Designing Test Data Provider (Excel)
-- Creating Test Runner for Framework
-- Running tests with different Test Data
-- Report Generation: Extent, Allure, and PDF
-
----
-
-## <span style="color: #4682B4;">17) How to Create Project JARs</span>
-
-Learn how to create and use JAR files in Java and Maven projects for reuse.
-
----
-
-## <span style="color: #4682B4;">18) DevOps & Continuous Integration</span>
-
-Learn how to set up Jenkins for continuous integration and deploy your tests.
-
-### Topics Covered:
-- Jenkins Pipeline Setup
-- Git Commands: commit, pull, push, merge, etc.
-- Maven Nexus Deployment
+## <span style="color: #4682B4;">Part-2: Advanced Selenium</span>
+...

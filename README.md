@@ -1,20 +1,20 @@
-# <span style="color: #FF6347;">Selenium Automation Course - Comprehensive Guide</span>
+ <span style="color: #FF6347;">Selenium Automation Course - Comprehensive Guide</span>
 
 This comprehensive guide covers essential and advanced topics for mastering Selenium WebDriver and related frameworks. It also includes common interview questions and real-world project details.
 
 ---
 
-## <span style="color: #4682B4;">5) WebDriver Interface</span>
+ <span style="color: #4682B4;">5) WebDriver Interface</span>
 
 This topic will make you familiar with the concept of browsers in WebDriver and how to launch a basic Firefox browser using WebDriver. Here we will also talk about WebDriver & WebElement interfaces, which will enable us to answer many complicated interview questions about WebDriver implementation.
 
-### <span style="color: #32CD32;">Topics Covered:</span>
+ <span style="color: #32CD32;">Topics Covered:</span>
 - <span style="color: #DAA520;">Architecture of WebDriver</span>
 - <span style="color: #DAA520;">WebDriver Interface</span>
 - <span style="color: #DAA520;">WebElement Interface</span>
 - <span style="color: #DAA520;">Launching Firefox/Chrome/Safari</span>
 
-### <span style="color: #8A2BE2;">Interview Questions:</span>
+ <span style="color: #8A2BE2;">Interview Questions:</span>
 - What is the WebDriver interface?
 - Difference between WebDriver and WebElement?
 

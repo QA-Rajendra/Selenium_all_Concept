@@ -11,6 +11,7 @@ This topic will make you familiar with the concept of browsers in WebDriver and 
 ### <span style="color: #32CD32;">Topics Covered:</span> 
 - <span style="color: #DAA520;">Architecture of WebDriver</span>
 <img width="764" height="433" alt="image" src="https://github.com/user-attachments/assets/be9e9332-a428-4756-82a5-e0c7bec2cf2f" />
+
 - <span style="color: #DAA520;">WebDriver Interface</span>
 - <span style="color: #DAA520;">WebElement Interface</span>
 - <span style="color: #DAA520;">Launching Firefox/Chrome/Safari</span> 🦊
@@ -18,6 +19,37 @@ This topic will make you familiar with the concept of browsers in WebDriver and 
 ### <span style="color: #8A2BE2;">Interview Questions 📝:</span>
 - What is the WebDriver interface? 🤔
 - Difference between WebDriver and WebElement? 🤨
+- # Difference between WebDriver and WebElement 🤨
+
+The **WebDriver** and **WebElement** are two key components in Selenium, but they serve different purposes in browser automation. Here's a comparison between the two:
+
+| **Feature**                     | **WebDriver**                                           | **WebElement**                                      |
+|----------------------------------|---------------------------------------------------------|-----------------------------------------------------|
+| **Definition**                   | The interface responsible for controlling the entire browser. | Represents a single HTML element in the DOM.        |
+| **Scope**                        | Controls the entire browser (window, session, navigation). | Represents and interacts with a specific element on the webpage. |
+| **Main Responsibilities**        | Launching and controlling the browser, navigation, getting page title, etc. | Interacting with individual elements like buttons, text fields, links, etc. |
+| **Example Methods**              | `get()`, `findElement()`, `navigate()`, `quit()`.       | `click()`, `sendKeys()`, `getText()`, `getAttribute()`. |
+| **Usage**                        | Used to start a browser, interact with multiple elements, manage browser windows. | Used to interact with individual elements, such as clicking a button or entering text into a field. |
+| **Relation**                     | WebDriver interacts with WebElement to find and manipulate individual elements. | WebElement is used by WebDriver to perform actions on specific elements. |
+
+---
+
+### **Key Differences**:
+- **WebDriver** is responsible for controlling the entire browser and provides methods to interact with the page, manage windows, etc.
+- **WebElement** represents an individual HTML element on the page, such as a button, text box, or link. WebDriver uses **WebElement** to interact with specific elements on the page.
+
+---
+
+
+
+
+WebDriver driver = new ChromeDriver();  // WebDriver controls the browser
+driver.get("https://www.example.com");
+
+WebElement searchBox = driver.findElement(By.name("q")); // WebElement for the search box
+searchBox.sendKeys("Selenium"); // Interacting with the search box using WebElement
+searchBox.submit(); // Submitting the search box
+
 
 ---
 

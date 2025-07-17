@@ -10,6 +10,7 @@ This topic will make you familiar with the concept of browsers in WebDriver and 
 
 ### <span style="color: #32CD32;">Topics Covered:</span> 
 - <span style="color: #DAA520;">Architecture of WebDriver</span>
+<img width="764" height="433" alt="image" src="https://github.com/user-attachments/assets/be9e9332-a428-4756-82a5-e0c7bec2cf2f" />
 - <span style="color: #DAA520;">WebDriver Interface</span>
 - <span style="color: #DAA520;">WebElement Interface</span>
 - <span style="color: #DAA520;">Launching Firefox/Chrome/Safari</span> 🦊
